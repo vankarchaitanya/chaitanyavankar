@@ -1,0 +1,156 @@
+{"menu":{
+  "name":"చైతన్య",
+  "links":["హోమ్","గురించి","ప్రాజెక్టులు","సంప్రదించండి"]
+},
+  "HomePage": {
+    "title": "చైతన్య",
+    "role": "వెబ్ డెవలపర్" ,
+    "description": "అతను టెక్నాలజీ మరియు సృజనాత్మకత కలసే స్పందించే వెబ్‌సైట్లను డిజైన్ చేస్తాడు",
+     "quote": "పెద్ద బగ్స్ వస్తే, పెద్ద స్టాక్ ఓవర్‌ఫ్లో సందర్శనలు వస్తాయి",
+    "person": "డాక్టర్. హూ"
+  },
+  "Footer": {
+    "title": "చైతన్య",
+    "roles": "వెబ్ డెవలపర్",
+    "social":"ప్రచార మాధ్యమం",
+    "copyright":"© కాపీరైట్ 2025. చైతన్య అభివృద్ధి చేసి నిర్వహించాడు."
+  },
+  "AboutMe": {
+    "title":"గురించి",
+    "paragarph":"నేను ఎవరు",
+    "describe": [
+      "హలో, నేను చైతన్య!",
+      "నేను స్వయంగా నేర్చుకున్న ఫ్రంట్‌ఎండ్ డెవలపర్ ని, భారత్‌లో నివసిస్తున్నాను. నేను బేసిక్ నుండి స్పందించే వెబ్‌సైట్లు తయారు చేసి, వాటిని ఆధునిక మరియు యూజర్ ఫ్రెండ్లీ అనుభవాలుగా మార్చగలను.",
+      "నా సృజనాత్మకత మరియు జ్ఞానాన్ని వెబ్‌సైట్లుగా మార్చడం నాకు సంవత్సరానికి పైగా ప్యాషన్. నేను ఎప్పుడూ కొత్త టెక్నాలజీలు మరియు ఫ్రేమ్‌వర్క్స్ నేర్చుకోవడానికి ప్రయత్నిస్తాను."
+    ],
+    "link": "ఇంకా చదవండి"
+  },
+  "Contact": {
+    "title":"సంప్రదించండి",
+    "social":"సోషల్ మీడియాలో నన్ను అనుసరించండి",
+    "describe": "నాకు ఫ్రీలాన్స్ అవకాశాల్లో ఆసక్తి ఉంది. మీకు వేరే అభ్యర్థన లేదా ప్రశ్న ఉంటే, నన్ను సంప్రదించడానికి సంకోచించకండి.",
+    "link": "సంప్రదించండి"
+  },
+  "TopProject":{
+    "title":"ప్రాజెక్టులు",
+    "paragraph":"ప్రాజెక్టుల జాబితా",
+    "project":[
+    {
+      "title": "గేమ్ ఆఫ్ థ్రోన్స్ API",
+      "describe": "గేమ్ ఆఫ్ థ్రోన్స్ API: పాత్రలు, డైలాగ్లు మరియు ఇంటీలు",
+      "link": "https://github.com/chaitechie/gameofthronesapihindi",
+      "techstack": "రియాక్ట్ నోడ్ ఎక్స్‌ప్రెస్ పోస్ట్‌గ్రేస్‌క్యూఎల్",
+      "image": "/img/gotapi.png",
+      "width": 300,
+      "height": 140,
+        "button": "గిట్‌హబ్ రిపో"
+    },
+    {
+      "title": "లె జోయూ ప్రెసియెక్స్",
+      "describe": "కోటేషన్ ఫారంతో లాండింగ్ పేజీ",
+      "link": "https://github.com/chaitechie/LeJoyauprecieux",
+      "image": "/img/jeweller.png",
+      "techstack": "React Zustand Firebase SCSS",
+      "width": 300,
+      "height": 140,
+      "button": "గిట్‌హబ్ రిపో"
+    },
+    {
+      "title": "షాప్.సీఓ",
+      "describe": "ఇ-కామర్స్ వెబ్ అప్లికేషన్",
+      "link": "https://github.com/chaitechie/SHOP.CO",
+      "image": "/img/ecommerce.png",
+      "techstack": "React Zustand Firebase TailwindCSS",
+      "width": 300,
+      "height": 140,
+        "button": "గిట్‌హబ్ రిపో"
+    },
+    {
+      "title": "పోర్ట్‌ఫోలియో",
+      "describe": "మీరు ఇప్పుడే దీనిని ఉపయోగిస్తున్నారు",
+      "link": "https://github.com/chaitechie/portfoliowebsite",
+      "image": "/img/portfolio.png",
+      "techstack": "Nextjs TypeScript TailwindCSS Next-Intl",
+      "width": 300,
+      "height": 140,
+        "button": "గిట్‌హబ్ రిపో"
+    }
+  ]
+  } ,
+  "Skills": {
+    "title":"నైపుణ్యాలు",
+    "skill":[
+    {
+      "name": "ప్రోగ్రామింగ్ భాషలు",
+      "lang": "TypeScript C# Python Javascript"
+    },
+    {
+      "name": "డేటాబేసులు",
+      "lang": "MongoDB Postgresql"
+    },
+    {
+      "name": "ఇతర టెక్నాలజీలు",
+      "lang": "HTML CSS SCSS REST"
+    },
+    {
+      "name": "సాధనాలు",
+      "lang": "VSCode Linux Figma GIT Font Awesome"
+    },
+    {
+      "name": "ఫ్రేమ్‌వర్క్స్",
+      "lang": "React Node Express Django"
+    }
+  ]
+  },
+  "SmallProject": {
+    "title":"చిన్న ప్రాజెక్టులు",
+    "projects":[
+    {
+      "name": "రూబ్రిక్ ప్రాజెక్ట్",
+      "techstack": "React TypeScript Redux JSON",
+      "describe": "ఒక చిన్న SASS ప్రాజెక్ట్",
+      "link": "https://github.com/chaitechie/Rubric-Project",
+      "button": "గిట్‌హబ్ రిపో"
+    },
+    {
+      "name": "కరెన్సీ కన్వర్టర్",
+      "techstack": "React JavaScript Redux RESTAPI",
+      "describe": "రియల్ టైమ్ కరెన్సీ కన్వర్టర్",
+      "link": "https://github.com/chaitechie/Currency_Converter",
+      "button": "గిట్‌హబ్ రిపో"
+    },
+    {
+      "name": "రచయిత",
+      "describe": "రెండు పేజీల రచయిత వెబ్‌సైట్",
+      "link": "https://www.figma.com/community/file/1468198647881717645",
+      "techstack": "Figma Font Awesome",
+      "button": "Figma లింక్"
+    },
+    {
+      "name": "సూపర్వికీ",
+      "techstack": "React Axios JavaScript CSS",
+      "describe": "సూపర్ హీరోల వికీ",
+      "link": "https://github.com/chaitechie/Superwiki",
+      "button": "గిట్‌హబ్ రిపో"
+    },
+    {
+      "name": "రాక్ పేపర్ సిజర్స్",
+      "techstack": "React JavaScript CSS",
+      "describe": "React లో రూపొందించిన రాక్ పేపర్ సిజర్స్ ఆట",
+      "link": "https://rps-jouer.netlify.app/",
+      "button": "లైవ్ లింక్"
+    }
+  ]
+  },
+    "funfacts":{
+        "title":"నా ఫన్ విషయాలు",
+        "list":[
+            "నాకు చలికాలం కంటే వేసవి బాగా ఇష్టం.",
+            "నాకు బిర్యానీ మరియు చైనీస్ ఫుడ్ ఇష్టం.",
+            "నా ఇష్టమైన సూపర్ హీరో ఇన్విన్సిబుల్.",
+            "నేను కోడింగ్ చేయని సమయంలో చదవడం ఇష్టం.",
+            "నాకు రాయడం అంటే చాలా ఇష్టం."
+        ]
+    }
+  
+}

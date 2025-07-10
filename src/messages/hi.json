@@ -1,0 +1,156 @@
+{
+  "menu":{
+    "name":"चैतन्य",
+    "links":["होम", "मेरे बारे में", "प्रोजेक्ट्स", "संपर्क"]
+  },
+  "HomePage": {
+    "title": "चैतन्य ",
+    "role": "वेब डेवलपर हैं" ,
+    "description": "वह उत्तरदायी वेबसाइट बनाते हैं जहाँ तकनीक और रचनात्मकता मिलती है।",
+  "quote": "बड़े बग के साथ बड़े स्टैक ओवरफ़्लो विज़िट भी आते हैं",
+    "person": "डॉ. हू"
+  },
+  "Footer": {
+    "title": "चैतन्य",
+    "roles": "वेब डेवलपर",
+    "social":"संचार माध्यम",
+    "copyright":"© सर्वाधिकार सुरक्षित 2025। चैतन्य द्वारा विकास और अनुरक्षण किया गया।"
+  },
+  "AboutMe": {
+     "title":"मेरे बारे में",
+    "paragarph":"मैं कौन हूँ",
+    "describe": [
+      "नमस्ते, मैं चैतन्य हूँ!",
+      "मैं भारत में आधारित एक स्व-शिक्षित फ्रंटएंड डेवलपर हूँ। मैं शुरू से उत्तरदायी वेबसाइट बना सकता हूँ और उन्हें आधुनिक उपयोगकर्ता-मित्र वेब अनुभवों में बदल सकता हूँ।",
+      "अपनी रचनात्मकता और ज्ञान को वेबसाइट में बदलना मेरा एक साल से अधिक पुराना जुनून रहा है। मैं हमेशा नई तकनीकों और फ्रेमवर्क्स के बारे में सीखने की कोशिश करता हूँ।"
+    ],
+    "link": "और पढ़ें"
+  },
+  "Contact": {
+    "title":"संपर्क",
+    "social":"सोशल मीडिया पर मुझे फॉलो करें",
+    "describe": "मैं फ्रीलांस अवसरों में रुचि रखता हूँ। लेकिन यदि आपके पास कोई अन्य अनुरोध या प्रश्न है, तो बेझिझक संपर्क करें।",
+    "link": "संपर्क करें"
+  },
+  "TopProject": {
+    "title":"प्रोजेक्ट्स",
+    "paragraph":"परियोजनाओं की सूची",
+    "project":[
+    {
+      "title": "गेम ऑफ़ थ्रोन्स एपीआई",
+      "describe": "GoT एपीआई: पात्र, संवाद और घराने",
+      "link": "https://github.com/chaitechie/gameofthronesapihindi",
+      "techstack": "React Node Express Postgresql",
+      "image": "/img/gotapi.png",
+      "width": 300,
+      "height": 140,
+       "button": "गिटहब रेपो"
+    },
+    {
+      "title": "ले जोयू प्रेशियू",
+      "describe": "एक लैंडिंग पेज जिसमें कोट फॉर्म है",
+      "link": "https://github.com/chaitechie/LeJoyauprecieux",
+      "image": "/img/jeweller.png",
+      "techstack": "React Zustand Firebase SCSS",
+      "width": 300,
+      "height": 140,
+       "button": "गिटहब रेपो"
+    },
+    {
+      "title": "शॉप.सीओ",
+      "describe": "ई-कॉमर्स वेब एप्लिकेशन",
+      "link": "https://github.com/chaitechie/SHOP.CO",
+      "image": "/img/ecommerce.png",
+      "techstack": "React Zustand Firebase TailwindCSS",
+      "width": 300,
+      "height": 140,
+       "button": "गिटहब रेपो"
+    },
+    {
+      "title": "पोर्टफोलियो",
+      "describe": "आप अभी इसी का उपयोग कर रहे हैं",
+      "link": "https://github.com/chaitechie/portfoliowebsite",
+      "image": "/img/portfolio.png",
+      "techstack": "Nextjs TypeScript Emailjs TailwindCSS",
+      "width": 300,
+      "height": 140,
+       "button": "गिटहब रेपो"
+    }
+  ]
+  },
+  "Skills": {
+    "title":"कौशल",
+    "skill":[
+    {
+      "name": "भाषाएँ",
+      "lang": "TypeScript C# Python Javascript"
+    },
+    {
+      "name": "डेटाबेस",
+      "lang": "MongoDB Postgresql"
+    },
+    {
+      "name": "अन्य",
+      "lang": "HTML CSS SCSS REST"
+    },
+    {
+      "name": "उपकरण",
+      "lang": "VSCode Linux Figma GIT Font Awesome"
+    },
+    {
+      "name": "फ्रेमवर्क्स",
+      "lang": "React Node Express Django"
+    }
+  ]
+  },
+  "SmallProject": {
+    "title":"छोटे प्रोजेक्ट्स",
+    "projects":[
+    {
+      "name": "रूबरिक प्रोजेक्ट",
+      "techstack": "React TypeScript Redux JSON",
+      "describe": "एक छोटा SASS प्रोजेक्ट",
+      "link": "https://github.com/chaitechie/Rubric-Project",
+      "button": "गिटहब रेपो"
+    },
+    {
+      "name": "मुद्रा परिवर्तक",
+      "techstack": "React JavaScript Redux RESTAPI",
+      "describe": "एक रियल-टाइम मुद्रा परिवर्तक",
+      "link": "https://github.com/chaitechie/Currency_Converter",
+      "button": "गिटहब रेपो"
+    },
+    {
+      "name": "लेखक",
+      "describe": "दो पृष्ठों वाली लेखक वेबसाइट",
+      "link": "https://www.figma.com/community/file/1468198647881717645",
+      "techstack": "Figma Font Awesome",
+      "button": "Figma लिंक"
+    },
+    {
+      "name": "सुपरविकी",
+      "techstack": "React Axios JavaScript CSS",
+      "describe": "एक सुपरहीरो विकिपीडिया",
+      "link": "https://github.com/chaitechie/Superwiki",
+      "button": "गिटहब रेपो"
+    },
+    {
+      "name": "रॉक पेपर सीज़र",
+      "techstack": "React JavaScript CSS",
+      "describe": "React में बना रॉक पेपर सीज़र गेम",
+      "link": "https://rps-jouer.netlify.app/",
+      "button": "लाइव लिंक"
+    }
+  ]
+  },
+   "funfacts":{
+        "title":"मेरे मजेदार तथ्य",
+        "list":[
+            "मुझे गर्मी सर्दी से ज्यादा पसंद है।",
+            "मुझे बिरयानी और चाइनीज़ खाना पसंद है।",
+            "मेरा पसंदीदा सुपरहीरो इनविंसिबल है।",
+            "अगर मैं कोडिंग नहीं कर रहा हूँ तो मैं पढ़ना पसंद करता हूँ।",
+            "मुझे लिखना बहुत पसंद है।"
+        ]
+    }
+}

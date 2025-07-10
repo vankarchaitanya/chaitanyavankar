@@ -1,0 +1,158 @@
+{
+  "menu":{
+    "name":"Chaitanya",
+    "links":["Home","About", "Projects","Contact"],
+    "social":"media"
+  },
+  "HomePage": {
+    "title":"Chaitanya is",
+    "role":"Web Developer",
+    "description": "He crafts responsive website where technologies meet creativity",
+    "quote":"With great bugs come great Stack Overflow vists",
+    "person":"Dr.Who"
+  },
+  "Footer":{
+    "title":"Chaitanya ",
+    "roles":"Web Developer",
+    "social":"media",
+    "copyright":"@ copyright 2025. developed and maintained by Chaitanya"
+  },
+
+  "AboutMe":{
+    "name":"about me",
+    "paragarph":"who am i",
+    "describe":["Hello,I'm Chaitanya!","I'm a self-taught frontend-developer based India.I can develop responsive websites from scratch and raise them into modern user-firendly web experiences.",
+  "Transfroming my creativity and knowledge into a websites has been my passion over a year. I always strive to learn about the newest technologies and frameworks."],
+  "link":"Read More"
+  },
+  "Contact":{
+    "title":"contact",
+    "social":"Follow Me",
+    "describe":"I'm interesed in freelance opportunities. However if you have other request or question, don't hestitate to contact me.",
+    "link":"contact"
+  },
+  "TopProject": {
+    "title":"Projects",
+    "paragraph":"list of projects",
+    "project":
+      [
+    {
+      "title": "Game of Thrones API",
+      "describe": "GoT API: Characters, Dialogues, & Houses",
+      "link": "https://github.com/chaitechie/gameofthronesapihindi",
+      "techstack": "React Node Express Postgresql",
+      "image": "/img/gotapi.png",
+      "width": 300,
+      "height": 140,
+       "button": "Github Repo"
+    },
+    {
+      "title": "Le Joyau Precieux",
+      "describe": "A Landing Page with Quote form",
+      "link": "https://github.com/chaitechie/LeJoyauprecieux",
+      "image": "/img/jeweller.png",
+      "techstack": "React Zustand Firebase SCSS",
+      "width": 300,
+      "height": 140,
+       "button": "Github Repo"
+    },
+    {
+      "title": "SHOP.CO",
+      "describe": "Ecommerce Web Application",
+      "link": "https://github.com/chaitechie/SHOP.CO",
+      "image": "/img/ecommerce.png",
+      "techstack": "React Zustand Firebase TailwindCSS",
+      "width": 300,
+      "height": 140,
+       "button": "Github Repo"
+    },
+    {
+      "title": "Portfolio",
+      "describe": "you're using it now",
+      "link": "https://github.com/chaitechie/portfoliowebsite",
+      "image": "/img/portfolio.png",
+      "techstack": "Nextjs TypeScript Emailjs TailwindCSS",
+      "width": 300,
+      "height": 140,
+       "button": "Github Repo"
+    }
+  ]
+    
+  },
+  "Skills": {
+    "title":"Skills",
+    "skill":[
+    {
+      "name": "Languages",
+      "lang": "TypeScript C# Python Javascript"
+    },
+    {
+      "name": "Databases",
+      "lang": "MongoDB  Postgresql"
+    },
+    {
+      "name": "Others",
+      "lang": "HTML CSS SCSS REST"
+    },
+    {
+      "name": "Tools",
+      "lang": "VSCode Linux Figma GIT Font Awesome"
+    },
+    {
+      "name": "Frameworks",
+      "lang": "React Node Express Django"
+    }
+  ]
+  },
+  "SmallProject": {
+    "title":"small project",
+    "projects":[
+    {
+      "name": "Rubric Project",
+      "techstack": "React TypeScript Redux JSON",
+      "describe": "A small SASS project",
+      "link": "https://github.com/chaitechie/Rubric-Project",
+      "button": "Github Repo"
+    },
+    {
+      "name": "Currency Converter",
+      "techstack": "React JavaScript Redux RESTAPI",
+      "describe": "A Real-time currency converter",
+      "link": "https://github.com/chaitechie/Currency_Converter",
+      "button": "Github Repo"
+    },
+    {
+      "name": "Author",
+      "describe": "Two Page Author website",
+      "link": "https://www.figma.com/community/file/1468198647881717645",
+      "techstack": "Figma Font Awesome",
+      "button": "Figma Link"
+    },
+    {
+      "name": "Superwiki",
+      "techstack": "React Axios JavaScript CSS",
+      "describe": "A superhero wiki",
+      "link": "https://github.com/chaitechie/Superwiki",
+      "button": "Github Repo"
+    },
+    {
+      "name": "Rock Paper Scissors",
+      "techstack": "React JavaScript CSS",
+      "describe": "A Rock Paper Scissors game in React",
+      "link": "https://rps-jouer.netlify.app/",
+      "button": "Live Link"
+    }
+  ]
+  },
+   "funfacts":{
+        "title":"My fun facts",
+        "list":[
+          "I like summer more than winter",
+       " I like biryani and Chinese food",		
+"My favorite superhero is Invincible",		
+"I like to read if I am not coding",
+"I love to write"
+        ]
+    }
+}
+

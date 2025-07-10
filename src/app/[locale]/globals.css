@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family:"FiraCode-Medium";
+  src: url('../../../public/fonts/FiraCode-Medium.ttf');
+};
+@font-face {
+  font-family:"FiraCode-Regular";
+  src: url('../../../public/fonts/FiraCode-Regular.ttf');
+};
+@font-face {
+  font-family:"FiraCode-Bold";
+  src: url('../../../public/fonts/FiraCode-Bold.ttf');
+};
+body {
+  background:#282C33;
+  overflow-x:hidden;
+}
+
+
+:root{
+  --background:#282c33;
+  --primary:#c778dd;
+  --white:#fff;
+  --gray:#ABB2BF; 
+  --bold:'FiraCode-Bold';
+  --medium:'FiraCode-Medium';
+  --regular:'FiraCode-Regular';
+}
+
+
+
+
+
+@theme{
+  --bold:"FiraCode-Bold";
+  --medium:"FiraCode-Medium";
+  --regular:"FiraCode-Regular";
+  --background:#282c33;
+  --primary:#c778dd;
+  --white:#fff;
+  --gray:#ABB2BF; 
+  --breakpoint-sm:40rem;
+  --breakpoint-md:48rem;
+  --breakpoint-xl:80rem;
+  --breakpoint-2xl:96rem;
+  --font-display--font-feature-settings: "cv02", "cv03", "cv04", "cv11";  
+  --font-display--font-variation-settings: "opsz" 32; 
+
+}
+
+
