@@ -95,7 +95,7 @@ function Header() {
           <Link
             target="_blank"
             rel="noopener"
-            href="https://github.com/chaitechie"
+            href="https://github.com/vankarchaitanya"
           >
             <Image
               src={Github}
@@ -106,7 +106,7 @@ function Header() {
           <Link
             target="_blank"
             rel="noopener"
-            href="https://www.linkedin.com/in/chaitechie/"
+            href="https://www.linkedin.com/in/vankarchaitanya/"
           >
             <Image
               src={Linkedin}
@@ -122,7 +122,7 @@ function Header() {
           >
             <Image
               src={Figma}
-              alt="Linkedin"
+              alt="Figma"
               className="w-[100px] h-[100px ]  fill-black-600"
             />
           </Link>
