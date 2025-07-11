@@ -1,4 +1,3 @@
-'use clients';
 import { useTranslations } from "next-intl";
 import Desidev from "../../../public/Desidev.png"
 import Image from "next/image";

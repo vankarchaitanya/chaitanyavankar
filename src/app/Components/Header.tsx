@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import React,{ChangeEvent, useState} from "react";
 import logo from "../../../public/svg/logo.svg";
 import Menu from "../../../public/svg/Menu.svg";
