@@ -24,7 +24,8 @@ export default async function LocaleLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body>
-        <NextIntlClientProvider locale={locale}>
+        <NextIntlClientProvider
+        locale={locale}>
           {children}</NextIntlClientProvider>
       </body>
     </html>
