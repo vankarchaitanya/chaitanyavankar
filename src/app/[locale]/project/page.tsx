@@ -81,7 +81,7 @@ function ContactPage() {
             </p>
             <Link
               href={item.link}
-              className="text-[#abb2bf] w-[100px] h-[2vh]
+              className="text-[#abb2bf] w-[100px] h-[3vh]
                text-center font-(--font-regular)  text-[14px]  border-[#c778dd] mt-[2%] border-[1px] rounded "
             >
               {item.button}
