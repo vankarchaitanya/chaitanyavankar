@@ -4,7 +4,7 @@ import Footer from '@/app/Components/Footer';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
-function page() {
+function ContactPage() {
   const big = useTranslations('TopProject');
   const small = useTranslations('SmallProject');
   return (
@@ -98,4 +98,4 @@ function page() {
   )
 }
 
-export default page
+export default ContactPage

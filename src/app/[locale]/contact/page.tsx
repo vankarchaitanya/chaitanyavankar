@@ -9,7 +9,7 @@ import Email from '../../../../public/svg/Email.svg';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-function page() {
+function ContactPage() {
   const con = useTranslations('Contact')
   return (
         <>
@@ -96,4 +96,4 @@ function page() {
   )
 }
 
-export default page
+export default ContactPage

@@ -5,7 +5,7 @@ import Animedev from "../../../../public/Animedev.png";
 import Header from "@/app/Components/Header";
 import Footer from "@/app/Components/Footer";
 import vectorset from '../../../../public/svg/vectorset.svg'
-function page() {
+function AboutPage() {
   const trans = useTranslations("AboutMe");
   const t = useTranslations("Skills");
   const fun = useTranslations("funfacts");
@@ -103,4 +103,4 @@ className="grid grid-cols-1 w-screen xl:grid-cols-2 2xl:grid-cols-2 sm:p-2 gap-2
   );
 }
 
-export default page;
+export default AboutPage;
