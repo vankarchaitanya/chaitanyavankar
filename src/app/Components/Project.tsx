@@ -19,7 +19,7 @@ function Project() {
 
         <div className="grid grid-cols-1 gap-4 xl:grid-cols-4 2xl:grid-cols-4 m-[2%] place-items-center md:grid-cols-2">
             {project.map((item: { title:string,image:string,
-            width:number,height:number, link:string, techstack:string,describe:string}) => (
+            width:number,height:number, link:string, techstack:string,describe:string, button:string}) => (
                <div key={item.title}
                className="w-[300px]  h-full border-white border-[1px] rounded-[10px]
                 cols-span-3 m-2"
@@ -46,9 +46,9 @@ function Project() {
             </p>
             <Link
               href={item.link}
-              className="text-[#abb2bf] w-[100px] h-[4vh] text-center font-(--font-regular)  text-[12px]  border-[#c778dd] mt-[2%] border-[1px] rounded "
+              className="text-[#abb2bf] w-[100px] h-[2vh]  text-center font-(--font-regular)  text-[12px]  border-[#c778dd] mt-[2%] border-[1px] rounded "
             >
-              GitHub Repo
+             {item.button}
             </Link>
           </div>
 
