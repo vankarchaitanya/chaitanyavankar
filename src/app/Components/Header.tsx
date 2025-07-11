@@ -39,7 +39,7 @@ function Header() {
             path === linkhref[index] ? "active" : ""
           } `}
               >
-              {label}
+               <strong className="font-(--font-bold) text-(--primary)">#</strong> {label}
               </Link>
             </div>
           ))
@@ -58,7 +58,7 @@ function Header() {
       {locales.map((locale) => (
         <option key={locale}
         value={locale}>
-          {locale.toUpperCase()}
+          {locale.toLowerCase()}
         </option>
       ))}
       </select>
@@ -79,9 +79,8 @@ function Header() {
             t.raw('links').map((label:string,index:number) => (
             <div key={index}
             className=" flex flex-col justify-center items-center gap-[20px] mt-[-10px]">
-            <Link
-          href="/"
-          className={`font-(--font-regular) text-[2rem] text-white [&.active]:text-(--gray) hover:text-(--primary)  ${
+            <Link href={linkhref[index]}
+              className={` text-[16px] text-[#abb2bf] [&.active]:text-white hover:text-white active:text-white ${
             path === linkhref[index] ? "active" : ""
           } `}
         >
