@@ -12,13 +12,14 @@ function AboutPage() {
   return (
     <>
       <Header />
-
       <div className="w-screen ">
-        <h1 className="text-white font-(--font-bold) text-[32px] ml-[5%] sm:ml-[2%]">
+        <h1 className="text-white font-(--font-bold) text-[32px] ml-[5%]
+         sm:ml-[2%]">
           <strong className="text-(--primary)">/</strong>
-          {trans("title")}
+          {trans("name")}
         </h1>
-        <p className="font-(--font-regular)  text-[#abb2bf] text-[1.4rem] ml-[5%]">
+        <p className="font-(--font-regular)  
+        text-[#abb2bf] text-[1.4rem] ml-[5%]">
           {trans("paragarph")}
         </p>
 
@@ -27,7 +28,10 @@ function AboutPage() {
            grid-cols-1 xl:grid-cols-2 md:grid-cols-2 
            2xl:grid-cols-2 sm:gap-4 gap-6  place-items-center sm:m-[2%]"
         >
-          <div className="flex flex-col justify-center item-center gap-[20px] cols-span-6 w-[90%] h-[400px] m-10 md:m-[1%] xl:m-4 2xl:m-4">
+          <div className="flex flex-col justify-center 
+          item-center gap-[20px] cols-span-6 w-[90%] h-[350px] ml-[10%]
+          mt-[-10%]
+           md:m-[1%] ">
             {trans.raw("describe").map((item: string) => (
               <p
                 key={item}
@@ -37,7 +41,6 @@ function AboutPage() {
               </p>
             ))}
           </div>
-
           <Image
             src={Animedev}
             unoptimized={true}
@@ -102,5 +105,4 @@ className="grid grid-cols-1 w-screen xl:grid-cols-2 2xl:grid-cols-2 sm:p-2 gap-2
     </>
   );
 }
-
 export default AboutPage;

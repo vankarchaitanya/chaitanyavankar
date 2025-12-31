@@ -17,7 +17,7 @@
     "copyright":"© सर्वाधिकार सुरक्षित 2025। चैतन्य द्वारा विकास और अनुरक्षण किया गया।"
   },
   "AboutMe": {
-     "title":"मेरे बारे में",
+     "name":"मेरे बारे में",
     "paragarph":"मैं कौन हूँ",
     "describe": [
       "नमस्ते, मैं चैतन्य हूँ!",
@@ -47,16 +47,6 @@
        "button": "गिटहब रेपो"
     },
     {
-      "title": "ले जोयू प्रेशियू",
-      "describe": "एक लैंडिंग पेज जिसमें कोट फॉर्म है",
-      "link": "https://github.com/chaitechie/LeJoyauprecieux",
-      "image": "/img/jeweller.png",
-      "techstack": "React Zustand Firebase SCSS",
-      "width": 300,
-      "height": 140,
-       "button": "गिटहब रेपो"
-    },
-    {
       "title": "शॉप.सीओ",
       "describe": "ई-कॉमर्स वेब एप्लिकेशन",
       "link": "https://github.com/chaitechie/SHOP.CO",
@@ -75,7 +65,18 @@
       "width": 300,
       "height": 140,
        "button": "गिटहब रेपो"
+    },{
+      
+      "title": "गिनकाल्कु",
+      "describe": "हिंदी अंकों का कैलकुलेटर",
+      "link": "https://gitlab.com/chaitechie/gincalcu",
+      "image": "/img/mobileapp.png",
+      "techstack": "React Native TypeScript Expo React",
+      "width": 300,
+      "height": 140,
+       "button": "गिटहब रेपो"
     }
+    
   ]
   },
   "Skills": {
@@ -103,7 +104,7 @@
     }
   ]
   },
-  "SmallProject": {
+  "smallProject": {
     "title":"छोटे प्रोजेक्ट्स",
     "projects":[
     {

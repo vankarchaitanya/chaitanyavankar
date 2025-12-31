@@ -1,13 +1,13 @@
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import HeroComponent from "../Components/HeroComponent";
-import Project from "../Components/Project";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Email from '../../../public/svg/Email.svg';
 import Animedev from '../../../public/Animedev.png'
-import vectorset from '../../../public/svg/vectorset.svg'
+import vectorset from '../../../public/svg/vectorset.svg';
+import Project from '../../app/Components/Project'
 export default function HomePage(){
   const con = useTranslations('Contact');
   const about = useTranslations('AboutMe');
@@ -27,7 +27,6 @@ export default function HomePage(){
                   </h3>
                   <hr className="w-[40%] h-[2px] bg-[#c778dd] " />
                 </div>
-    
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 m-[5%] gap-2">
                 <div className="hidden md:block xl:block xl:ml-[5%] 2xl:block 2xl:ml-[10%] cols-span-3">
@@ -52,7 +51,7 @@ export default function HomePage(){
     <div>
           <div className="flex items-center ml-[5%] ">
             <h3 className="text-[#abb2bf] font-(--font-bold) text-[32px]">
-              <strong className="text-[#c778dd]">#</strong>{about('title')}
+              <strong className="text-[#c778dd]">#</strong>{about('name')}
             </h3>
             <hr className="w-[40%] h-[2px] bg-[#c778dd] " />
           </div>
@@ -67,9 +66,7 @@ export default function HomePage(){
                 {item}
               </p>
             ))
-           
            }
-          
               <Link href="/about">
                 <button className="w-[220px] h-[50px]  border-[#c778dd] border-[1px]
                  p-[2%] text-white font-(--font-regular) text-[16px] ">
@@ -77,8 +74,6 @@ export default function HomePage(){
                 </button>
               </Link>
             </div>
-           
-
             <Image
               src={Animedev}
               unoptimized={true}
@@ -89,9 +84,7 @@ export default function HomePage(){
               className="w-[257] h-[286px] xl:w-[457px] xl:h-[386px] "
             />
           </div>
-
   </div>
-
     {/* Contact me */}
     <div className="flex justify-center items-between gap-[20px]   ">
             <div className="flex flex-[2]  items-center ml-[5%] ">

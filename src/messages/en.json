@@ -13,7 +13,7 @@
   },
   "Footer":{
     "title":"Chaitanya ",
-    "roles":"Web Developer",
+    "roles":"React Developer",
     "social":"media",
     "copyright":"@ copyright 2025. developed and maintained by Chaitanya"
   },
@@ -47,16 +47,6 @@
        "button": "Github Repo"
     },
     {
-      "title": "Le Joyau Precieux",
-      "describe": "A Landing Page with Quote form",
-      "link": "https://github.com/chaitechie/LeJoyauprecieux",
-      "image": "/img/jeweller.png",
-      "techstack": "React Zustand Firebase SCSS",
-      "width": 300,
-      "height": 140,
-       "button": "Github Repo"
-    },
-    {
       "title": "SHOP.CO",
       "describe": "Ecommerce Web Application",
       "link": "https://github.com/chaitechie/SHOP.CO",
@@ -75,9 +65,18 @@
       "width": 300,
       "height": 140,
        "button": "Github Repo"
+    },
+    {
+      "title": "GinCalc",
+      "describe": "Hindi numeral calculator",
+      "link": "https://gitlab.com/chaitechie/gincalcu",
+      "image": "/img/mobileapp.png",
+      "techstack": "React Native TypeScript Expo React",
+      "width": 300,
+      "height": 140,
+       "button": "Github Repo"
     }
-  ]
-    
+  ]   
   },
   "Skills": {
     "title":"Skills",
@@ -104,14 +103,21 @@
     }
   ]
   },
-  "SmallProject": {
+  "smallProject": {
     "title":"small project",
     "projects":[
-    {
+       {
       "name": "Rubric Project",
       "techstack": "React TypeScript Redux JSON",
       "describe": "A small SASS project",
       "link": "https://github.com/chaitechie/Rubric-Project",
+      "button": "Github Repo"
+    },
+    {
+      "name": "Le Joyau Precieux",
+      "techstack": "React Zustand Firebase SCSS",
+      "describe": "A Landing Page with Quote form",
+      "link": "https://github.com/chaitechie/LeJoyauprecieux",
       "button": "Github Repo"
     },
     {

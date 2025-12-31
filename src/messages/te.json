@@ -16,7 +16,7 @@
     "copyright":"© కాపీరైట్ 2025. చైతన్య అభివృద్ధి చేసి నిర్వహించాడు."
   },
   "AboutMe": {
-    "title":"గురించి",
+    "name":"గురించి",
     "paragarph":"నేను ఎవరు",
     "describe": [
       "హలో, నేను చైతన్య!",
@@ -46,16 +46,6 @@
         "button": "గిట్‌హబ్ రిపో"
     },
     {
-      "title": "లె జోయూ ప్రెసియెక్స్",
-      "describe": "కోటేషన్ ఫారంతో లాండింగ్ పేజీ",
-      "link": "https://github.com/chaitechie/LeJoyauprecieux",
-      "image": "/img/jeweller.png",
-      "techstack": "React Zustand Firebase SCSS",
-      "width": 300,
-      "height": 140,
-      "button": "గిట్‌హబ్ రిపో"
-    },
-    {
       "title": "షాప్.సీఓ",
       "describe": "ఇ-కామర్స్ వెబ్ అప్లికేషన్",
       "link": "https://github.com/chaitechie/SHOP.CO",
@@ -74,6 +64,15 @@
       "width": 300,
       "height": 140,
         "button": "గిట్‌హబ్ రిపో"
+    },{
+      "title": "జిన్‌క్యాల్క్",
+      "describe": "హిందీ అంకెల కాలిక్యులేటర్",
+      "link": "https://gitlab.com/chaitechie/gincalcu",
+      "image": "/img/mobileapp.png",
+      "techstack": "React Native TypeScript Expo React",
+      "width": 300,
+      "height": 140,
+       "button": "గిట్‌హబ్ రిపో"
     }
   ]
   } ,
@@ -102,7 +101,7 @@
     }
   ]
   },
-  "SmallProject": {
+  "smallProject": {
     "title":"చిన్న ప్రాజెక్టులు",
     "projects":[
     {

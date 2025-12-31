@@ -4,9 +4,10 @@ import Footer from '@/app/Components/Footer';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
+
 function ContactPage() {
   const big = useTranslations('TopProject');
-  const small = useTranslations('SmallProject');
+  const small = useTranslations('smallProject');
   return (
     <>
       <Header />
@@ -19,8 +20,8 @@ function ContactPage() {
         </p>
         <div className="grid grid-cols-1 gap-4 xl:grid-cols-4 2xl:grid-cols-4 m-[2%] place-items-center md:grid-cols-2">
             {big.raw('project').map((item: { title:string,image:string,
-            width:number,height:number, link:string, techstack:string,describe:string,button:string}) => (
-               <div key={item.title}
+            width:number,height:number, link:string, techstack:string,describe:string, button:string}) => (
+                <div key={item.title}
                className="w-[300px]  h-full border-white border-[1px] rounded-[10px]
                 cols-span-3 m-2"
                >
@@ -46,9 +47,11 @@ function ContactPage() {
             </p>
             <Link
               href={item.link}
-              className="text-[#abb2bf] w-[100px] h-[3vh] text-center font-(--font-regular)  text-[12px]  border-[#c778dd] mt-[2%] border-[1px] rounded "
+              className="text-[#abb2bf] w-[80px] h-[3vh]  
+              text-center font-(--font-regular)  text-[12px] 
+               border-[#c778dd] m-[2%] border-[1px] rounded "
             >
-              {item.button}
+             {item.button}
             </Link>
           </div>
 
@@ -63,10 +66,11 @@ function ContactPage() {
           <strong className="text-[#c778dd]">#</strong>{small('title')}
         </h3>
     <div className="grid grid-cols-1 gap-4 xl:grid-cols-3 2xl:grid-cols-4 m-[2%] place-items-center md:grid-cols-2 md:w-screen">
-      {small.raw('projects').map((item:{name:string,techstack:string,describe:string,link:string,button:string}) => (
-        <div
+      {small.raw('projects').map((
+        item: { name:'string',techstack:'string',describe:'string',link:'string',button:'string' }) => (
+             <div
           key={item.name}
-          className="w-[300px] h-[15vh] border-white border-[1px] rounded-[10px] "
+          className="w-[300px] h-[20vh] border-white border-[1px] rounded-[10px] "
         >
           <p className="text-[#abb2bf] font-(--font-regular) ml-[1%] text-[14px] text-center">
             {item.techstack}
@@ -87,11 +91,11 @@ function ContactPage() {
               {item.button}
             </Link>
           </div>
-        </div>
-      ))}
+        </div>  
+      ))
+      }
     </div>
       </div>
-
       <Footer />
 
     </>
